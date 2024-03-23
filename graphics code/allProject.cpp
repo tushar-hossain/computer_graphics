@@ -1,4 +1,4 @@
-#include <cstdlib>
+
 #include <iostream>
 #include<graphics.h>
 using namespace std;
@@ -278,8 +278,6 @@ int main(int argc, char *argv[])
 
                 setcolor(BLACK);
                 ellipse(200,220,180,360,30,20);
-
-
 
            default:
                 cout << "Main Menu\n";
